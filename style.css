@@ -1,0 +1,43 @@
+body{
+    background-color: #A5967D;
+    color: #33250D;
+
+    width: 50%;
+    font-family: sans-serif;
+
+    text-align: center;
+}
+
+strong, em, a{
+    color: #f1b861cc;
+}
+
+abbr{
+    color: #694815a6;
+    font: small-caps;
+}
+
+p{
+    text-indent: 1.0em;
+    margin-top: 0;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+.summary{
+    text-align: center;
+}
+
+.main{
+    line-height: 1.5;
+}
