@@ -59,7 +59,7 @@ h3{
 
 ul, li{
     list-style-type: none;
-    padding: 1em;
+    padding-bottom: 1em;
 }
 
 .intro{
@@ -77,7 +77,6 @@ ul, li{
 }
 
 .sidebar{
-    line-height: 1em;
     text-align: center;
 }
 
@@ -98,7 +97,7 @@ ul, li{
 
 .design-selection{
     position: absolute;
-    top: 380px;
+    top: 500px;
     left: 62%;
     padding: 2%;
 }
