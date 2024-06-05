@@ -6,7 +6,6 @@ body{
     text-align: center;
 
     width: 80%;
-    max-width: 1280px;
 
     margin: auto;
 }
@@ -53,7 +52,7 @@ strong, em{
 
 abbr{
     color: #694815a6;
-    font: small-caps;
+    font-variant: small-caps;
 }
 
 p{
@@ -111,6 +110,7 @@ ul, li{
 
 .page-wrapper {
     position: relative;
+    max-width: 1280px;
 }
 
 .explanation {
@@ -160,9 +160,47 @@ ul, li{
 
 .participation h3{
     align-self: center;
-    flex-grow: 50%;
+    flex-basis: 50%;
 }
 
 .participation p{
     flex-basis: 50%;
+}
+
+
+@media screen and (max-width: 768px){
+    .design-selection{
+      position: static;
+      top: none;
+      left: none;
+      padding: none;
+    }
+  
+    .explanation{
+      border-right: none;
+    }
+
+    .participation{
+      display: flex;
+      flex-direction: column;
+    }
+
+    header{
+      height: auto;
+    }
+
+    p{
+      margin-top: none;
+    }
+}
+
+@media print{
+    body{
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .banner{
+      color: #ffffff;
+      background-color: #000000;
+    }
 }
